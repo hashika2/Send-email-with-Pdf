@@ -1,0 +1,16 @@
+{
+  "name": "gmail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.930.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "googleapis": "^74.2.0",
+    "html-pdf": "^3.0.1",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.1"
+  }
+}

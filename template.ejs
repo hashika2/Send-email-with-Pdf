@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Table</title>
+  </head>
+  <body>
+    <h1>Table</h1>
+    <table style="width: 100%;">
+      <tr>
+        <th>Qty.</th>
+        <th>Unit Price</th>
+        <th>Total Cost</th>
+      </tr>
+      <% if (products.length) { %>
+      <tr>
+        <% products.forEach(function (product) { %>
+        <td id="quantity"><%= product.quantity %></td>
+        <td id="unitPrice"><%= product.unitPrice %></td>
+        <td id="totalPrice"><%= product.totalPrice %></td>
+        <% }) %>
+      </tr>
+      <% } %>
+    </table>
+  </body>
+</html>
