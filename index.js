@@ -58,7 +58,7 @@ const emailSend = async () => {
     // })
 
     // send Pdf
-    await sendEmailWithPdf();
+    // await sendEmailWithPdf();
 
     // const mailOption = {
     //   from: "Your Truely <m.g.hashikamaduranga@gmail.com>", // Sender address
